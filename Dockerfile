@@ -26,8 +26,8 @@ COPY --from=build /go/src/my-golang-source-code/main ./
 
 # Add environment variables
 ENV LOGGLY_TOKEN bacf17cf-9102-4c1f-82ce-04833176a149
-ENV AWS_ACCESS_KEY_ID AKIA34XNLPJYFTZRPIEB
-ENV AWS_SECRET_ACCESS_KEY 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
+ENV AWS_ACCESS_KEY_ID **
+ENV AWS_SECRET_ACCESS_KEY **
 
 # Check results
 RUN env && pwd && find .
