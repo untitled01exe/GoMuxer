@@ -1,2 +1,1 @@
-# mfernan4
-For Software Deployment
+# Small Go/docker pipeline
