@@ -25,7 +25,7 @@ WORKDIR src
 COPY --from=build /go/src/my-golang-source-code/main ./
 
 # Add environment variables
-ENV LOGGLY_TOKEN bacf17cf-9102-4c1f-82ce-04833176a149
+ENV LOGGLY_TOKEN **
 ENV AWS_ACCESS_KEY_ID **
 ENV AWS_SECRET_ACCESS_KEY **
 
